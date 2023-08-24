@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- section1 -->
+
+    <div id="section1" class="container text-center mt-4">
+        <button onclick="generate_number_btn_click()" class="btn btn-warning btn-lg">Generate Number</button>
+    </div>
+
+    <!-- section2 -->
+
+    <div id="section2" class="container">
+        <div class="row mt-4">
+            <div class="col-12 text-center">
+                <img src="https://img.freepik.com/premium-vector/cartoon-character-man-thinking-with-question-mark-icon-flat-illustration_467786-117.jpg?w=360" alt="">
+
+                <p class="text-danger">Guess the number between 1 to 6***</p>
+
+                <div class="form-group w-25 mx-auto">
+                    <input id="field" type="text" placeholder="Enter here..." class="form-control">
+                </div>
+                <button class="btn btn-primary btn-sm mt-4" onclick="check_number()">Check</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- scetion3 -->
+
+    <div class="container text-center" id="section3">
+        <img class="img-fluid" width="200px" src="https://thumbs.gfycat.com/SecondTartCygnet-max-1mb.gif" alt="">
+        <h2>Generating Number</h2>
+    </div>
+
+ <script src="main.js"></script>  
+</body>
+</html>
